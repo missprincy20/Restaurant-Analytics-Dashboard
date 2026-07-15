@@ -206,9 +206,7 @@ The project uses a restaurant dataset containing information such as:
 
 Streamlit Cloud
 
-```
 https://restaurant-analytics-dashboard-we8pybqes9drq8awt3ndrj.streamlit.app/Recommendation
-```
 
 ---
 
