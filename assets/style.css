@@ -1,0 +1,177 @@
+/* ===========================
+Background
+=========================== */
+
+.stApp{
+
+    background:#f8fafc;
+
+}
+
+/* ===========================
+Sidebar
+=========================== */
+
+/* ===========================
+Sidebar Background
+=========================== */
+
+section[data-testid="stSidebar"]{
+    background-color:#111827;
+}
+
+/* Sidebar Text */
+
+section[data-testid="stSidebar"] *{
+    color:white !important;
+}
+
+/* Navigation Links */
+
+[data-testid="stSidebarNav"] a{
+    color:white !important;
+    border-radius:10px;
+    margin:4px 8px;
+    padding:8px 12px;
+}
+
+/* Hover Effect */
+
+[data-testid="stSidebarNav"] a:hover{
+    background:#374151 !important;
+    color:white !important;
+}
+
+/* Active Page */
+
+[data-testid="stSidebarNav"] a[aria-current="page"]{
+    background:#2563EB !important;
+    color:white !important;
+    font-weight:bold;
+    border-radius:10px;
+}
+
+/* ===========================
+Metric Cards
+=========================== */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,.15);
+
+    border-left:6px solid #2563eb;
+
+}
+
+/* ===========================
+Buttons
+=========================== */
+
+.stButton>button{
+
+    width:100%;
+
+    border-radius:10px;
+
+    height:50px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+Headers
+=========================== */
+
+h1{
+
+    color:#2563eb;
+
+}
+
+h2{
+
+    color:#1e293b;
+
+}
+
+h3{
+
+    color:#1e293b;
+
+}
+
+/* ===========================
+DataFrame
+=========================== */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+}
+
+/* ===========================
+
+CUSTOM KPI CARD
+
+=========================== */
+
+.metric-card{
+
+background:white;
+
+padding:25px;
+
+border-radius:20px;
+
+box-shadow:0px 8px 20px rgba(0,0,0,.12);
+
+text-align:center;
+
+margin-bottom:15px;
+
+transition:.3s;
+
+}
+
+.metric-card:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0px 15px 30px rgba(0,0,0,.18);
+
+}
+
+.metric-title{
+
+font-size:20px;
+
+font-weight:bold;
+
+color:#2563eb;
+
+margin-bottom:15px;
+
+}
+
+.metric-value{
+
+font-size:34px;
+
+font-weight:bold;
+
+color:#111827;
+
+}
+
