@@ -207,7 +207,7 @@ The project uses a restaurant dataset containing information such as:
 Streamlit Cloud
 
 ```
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)]https://restaurant-analytics-dashboard-we8pybqes9drq8awt3ndrj.streamlit.app/Recommendation
+https://restaurant-analytics-dashboard-we8pybqes9drq8awt3ndrj.streamlit.app/Recommendation
 ```
 
 ---
